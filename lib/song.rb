@@ -29,7 +29,7 @@ def initialize(name,artist,genre)
 end
 def genre_count
   @@genres.each do |key,value|
-    value.sort
+    value.sort!
 end
 end
 end
