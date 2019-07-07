@@ -13,6 +13,10 @@ def self.artists
   @@artists.uniq
 end
 
+def self.genre
+  @@genre.uniq
+end
+
 def initialize(name,artist,genre)
   @name = name
   @artist = artist
