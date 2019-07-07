@@ -19,7 +19,7 @@ def self.genres
 end
 
 def genre_count(genre,count)
-  genre.each do |count|
+  genre.each do |@@count|
 end
 end
 end
