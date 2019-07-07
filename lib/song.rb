@@ -32,6 +32,7 @@ def initialize(name,artist,genre)
   @@artists << artist
   @@genres << genre
 end
+
 def self.genre_count
     genre_count = {}
     @@genres.each do |genre|
@@ -42,6 +43,18 @@ def self.genre_count
       end
     end
     genre_count
+  end
+end
+def self.artist_count
+    artist_count = {}
+    @@artists.each do |artist|
+      if artists_count[artist]
+        artists_count[artist] += 1
+      else
+        artists_count[artist] = 1
+      end
+    end
+    artist_count
   end
 end
 
