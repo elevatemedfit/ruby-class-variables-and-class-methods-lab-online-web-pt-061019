@@ -5,7 +5,7 @@ attr_accessor :name,:artist,:genre
 @@artists = []
 @@genres = []
 @@genre_count = {}
-
+@@artist_count = {}
 
 def self.count
   @@count
