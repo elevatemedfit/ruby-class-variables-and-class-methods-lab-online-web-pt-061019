@@ -20,7 +20,6 @@ end
 
 def genre_count(genre,count)
   genre.each do |count|
-  puts {"#{genre}#{count}"}
 end
 end
 end
