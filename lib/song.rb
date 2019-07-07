@@ -18,14 +18,6 @@ def self.genres
   @@genres.uniq
 end
 
-#def genre_count
-  #@@genres.each do |key,value|
-    #value.sort
-#end
-end
-end
-
-
 def initialize(name,artist,genre)
   @name = name
   @artist = artist
@@ -36,3 +28,10 @@ def initialize(name,artist,genre)
   @@genres << genre
 end
 end
+
+#def genre_count
+  #@@genres.each do |key,value|
+    #value.sort
+#end
+#end
+#end
