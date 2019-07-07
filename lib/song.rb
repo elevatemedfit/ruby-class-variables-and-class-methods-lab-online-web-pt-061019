@@ -27,11 +27,12 @@ def initialize(name,artist,genre)
   @@artists << artist
   @@genres << genre
 end
+def genre_count
+  @@genres.each do |key,value|
+    value.sort
+end
+end
 end
 
-#def genre_count
-  #@@genres.each do |key,value|
-    #value.sort
-#end
-#end
+
 #end
