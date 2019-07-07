@@ -6,6 +6,7 @@ attr_accessor :name,:artist,:genre
 @@genres = []
 @@genre_count = {}
 
+
 def self.count
   @@count
 end
@@ -16,6 +17,10 @@ end
 
 def self.genres
   @@genres.uniq
+end
+
+def self.genre_count
+  @@genre_count
 end
 
 def initialize(name,artist,genre)
