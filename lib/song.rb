@@ -23,6 +23,7 @@ def genre_count(genre,count)
   puts {"#{genre}#{count}"}
 end
 end
+end
 
 
 def initialize(name,artist,genre)
