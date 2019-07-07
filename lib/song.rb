@@ -4,6 +4,7 @@ attr_accessor :name,:artist,:genre
 @@count = 0
 @@artists = []
 @@genres = []
+@@genre_count = {}
 
 def self.count
   @@count
@@ -16,6 +17,11 @@ end
 def self.genres
   @@genres.uniq
 end
+
+def genre_count do |genre,count|
+  puts {"#{genre}=>#{count}"}
+end
+
 
 def initialize(name,artist,genre)
   @name = name
