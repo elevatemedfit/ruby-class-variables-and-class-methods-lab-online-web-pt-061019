@@ -18,7 +18,8 @@ def self.genres
   @@genres.uniq
 end
 
-def genre_count do |genre,@@count|
+def genre_count(genre,count)
+  genre.each do |@@count|
   puts {"#{genre}#{count}"}
 end
 end
