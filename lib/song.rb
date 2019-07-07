@@ -22,7 +22,7 @@ def genre_count(genre)
   genre.each do |@@count|
 end
 end
-
+end
 
 
 def initialize(name,artist,genre)
