@@ -18,11 +18,11 @@ def self.genres
   @@genres.uniq
 end
 
-def genre_count
-  @@genres.each do |key,value|
-    value.sort
-end
-end
+#def genre_count
+  #@@genres.each do |key,value|
+    #value.sort
+#end
+#end
 end
 
 
