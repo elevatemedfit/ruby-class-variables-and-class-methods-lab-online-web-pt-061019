@@ -9,6 +9,10 @@ def self.count
   @@count
 end
 
+def self.artist
+  @artist.uniq
+end
+
 def initialize(name,artist,genre)
   @name = name
   @artist = artist
