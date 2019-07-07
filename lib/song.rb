@@ -21,6 +21,7 @@ end
 def genre_count do |genre,count|
   puts {"#{genre}=>#{count}"}
 end
+end
 
 
 def initialize(name,artist,genre)
