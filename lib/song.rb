@@ -15,7 +15,7 @@ def initialize(name,artist,genre)
   @genre = genre
 
   @@count +=1
-  @@artists.uniq << artist
+  @@artists << artist
   @@genres << genre
 end
 end
